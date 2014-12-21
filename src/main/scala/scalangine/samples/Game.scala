@@ -1,8 +1,9 @@
-package scalangine.engine
+package scalangine.samples
 
-import scalangine.components.MouseInputComponent
-import org.lwjgl.input.{Keyboard, Mouse}
+import org.lwjgl.input.Keyboard
 import org.lwjgl.opengl.{GL11, Display, DisplayMode}
+import scalangine.engine.BasicGameRunner
+import scalangine.components.MouseInputComponent
 
 /**
  * Created by maxim_000 on 11/19/2014.

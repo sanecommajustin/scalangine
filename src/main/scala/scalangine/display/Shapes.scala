@@ -34,9 +34,9 @@ object Shapes {
 	  (GL11.glColor3f _).tupled(color)
 	    GL11.glBegin(GL11.GL_LINE_STRIP)
 		    GL11.glVertex2f(rect.x, rect.y)
-		    GL11.glVertex2f(rect.width, rect.y)
-		    GL11.glVertex2f(rect.width, rect.height)
-		    GL11.glVertex2f(rect.x, rect.height)
+		    GL11.glVertex2f(rect.x + rect.width, rect.y)
+		    GL11.glVertex2f(rect.x + rect.width, rect.y + rect.height)
+		    GL11.glVertex2f(rect.x, rect.y + rect.height)
 		    GL11.glVertex2f(rect.x, rect.y)
 	    GL11.glEnd
 	}
@@ -45,9 +45,9 @@ object Shapes {
 	  (GL11.glColor3f _).tupled(color)
 	    GL11.glBegin(GL11.GL_QUADS)
 		    GL11.glVertex2f(rect.x, rect.y)
-		    GL11.glVertex2f(rect.width, rect.y)
-		    GL11.glVertex2f(rect.width, rect.height)
-		    GL11.glVertex2f(rect.x, rect.height)
+		    GL11.glVertex2f(rect.x + rect.width, rect.y)
+		    GL11.glVertex2f(rect.x + rect.width, rect.y + rect.height)
+		    GL11.glVertex2f(rect.x, rect.y + rect.height)
 	    GL11.glEnd
 	}
 	

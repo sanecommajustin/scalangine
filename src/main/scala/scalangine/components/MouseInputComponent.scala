@@ -1,9 +1,9 @@
 package scalangine.components
 
-import scalangine.engine.Game
+import scalangine.samples.Game
 import scalangine.utilities.MathUtil
 import org.lwjgl.input.Mouse
-import scalangine.engine.Game3
+import scalangine.samples.Game3
 
 /**
  * Created by maxim_000 on 11/27/2014.

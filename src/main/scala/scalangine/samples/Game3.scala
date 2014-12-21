@@ -1,15 +1,9 @@
-package scalangine.engine
+package scalangine.samples
 
 import org.lwjgl.opengl.Display
 import org.lwjgl.opengl.GL11
-import scalangine.components.MouseInputComponent
-import org.lwjgl.input.Keyboard
 import org.lwjgl.opengl.DisplayMode
-import scalangine.display.Shapes
-import scalangine.display.Color
-import scalangine.display.Rectangle
-import scalangine.display.Triangle
-import scalangine.display.Circle
+import scalangine.engine.BasicGameRunner
 
 object Game3 extends BasicGameRunner {
 
